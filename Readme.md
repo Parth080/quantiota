@@ -1,6 +1,8 @@
+
+
 ---
 
-# README: Entropy-Gradient Even/Odd Classifier with z Mapping Constraints  
+# Entropy-Gradient Even/Odd Classifier with z Mapping Constraints  
 
 ## 📖 **1. Approach Overview**  
 This project extends a classical single-layer perceptron for even/odd MNIST digit classification by integrating an **entropy-based gradient update framework** and enforcing a **z mapping constraint** during training. The primary modifications include:  
