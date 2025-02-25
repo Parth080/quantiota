@@ -21,7 +21,7 @@ This project extends a classical single-layer perceptron for even/odd MNIST digi
    - Introduced two sets of trainable weights \( w_1 \) and \( G_1 \), where each weight update is governed by the entropy gradient.  
 
 4. **Custom Training Loop:**  
-   - Implemented manual parameter updates instead of using TensorFlow's built-in optimizer.  
+   - Implemented manual parameter updates instead of using TensorFlow's built-in Adam optimizer.  
 
 ---  
 
