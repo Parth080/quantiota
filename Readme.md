@@ -15,7 +15,7 @@ This project extends a classical single-layer perceptron for even/odd MNIST digi
      ```math  
      |z_{i+1} - z_i| < \delta  
      ```  
-     to limit the change in knowledge \( z \) between consecutive training iterations.  
+     to limit the change in knowledge \( z \) between consecutive training iterations(preferred between 0.01 and 0.1).  
 
 3. **Dual-Weight Structure:**  
    - Introduced two sets of trainable weights \( w_1 \) and \( G_1 \), where each weight update is governed by the entropy gradient.  
