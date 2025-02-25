@@ -20,8 +20,8 @@ This project extends a classical single-layer perceptron for even/odd MNIST digi
 ## 🔑 **2. Key Implementation Details**
 
 ### **2.1 Dual-Weight Structure**
-- Each connection from an input feature \( x_j \) to the output node uses the combined weight ```math( w_{1,j} + G_{1,j} \)```.
-- Both ```math\( w_1 \) and \( G_1 \)```are initialized with small random values scaled by 0.01.
+- Each connection from an input feature \( x_j \) to the output node uses the combined weight \( w_{1,j} + G_{1,j} \).
+- Both \( w_1 \) and \( G_1 \) are initialized with small random values scaled by 0.01.
 
 ### **2.2 z Mapping Computation**
 For each batch, the knowledge \( z \) was computed as:
@@ -78,14 +78,14 @@ For further improvements, adaptive learning rates and more complex architectures
 
 ## 📝 **6. How to Run**
 1. Install the environment
-```bash
+bash
 conda env create -f environment.yml
-```
+
 
 2. Activate the environment
-```bash
+bash
 conda activate quantiotaenv
-```
+
 
 3. Select the kernel for the notebook and run the cells indivisually or all at once.
 
@@ -94,4 +94,3 @@ conda activate quantiotaenv
 - Plot of the training and testing accuracy trained and tested over Adam Optimizer
 - Plot of the test accuracy over epochs
 - Visualization of predictions for 10 random test samples.
-
