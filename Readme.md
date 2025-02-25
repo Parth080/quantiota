@@ -20,7 +20,7 @@ This project extends a classical single-layer perceptron for even/odd (0/1) MNIS
 3. **Dual-Weight Structure:**  
    - Introduced two sets of trainable weights
       ```math
-        ( w_1 \)
+        ( w_1 )
      ```
    and
      ```math
@@ -37,7 +37,8 @@ This project extends a classical single-layer perceptron for even/odd (0/1) MNIS
 
 ### **2.1 Dual-Weight Structure**  
 - Each connection from an input feature
-  ```math( x_j )
+  ```math
+  ( x_j )
   ```
    to the output node uses the combined weight
   ```math
@@ -45,7 +46,7 @@ This project extends a classical single-layer perceptron for even/odd (0/1) MNIS
   ```
 - Both
   ```math
-  ( w_1 \)
+  ( w_1 )
   ```
    and
   ```math
