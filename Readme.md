@@ -30,7 +30,7 @@ This project extends a classical single-layer perceptron for even/odd MNIST digi
 ### **2.1 Dual-Weight Structure**  
 - Each connection from an input feature \( x_j \) to the output node uses the combined weight
   ```math
-  \( w_{1,j} + G_{1,j} \)
+  ( w_{1,j} + G_{1,j} )
   ```
 - Both \( w_1 \) and \( G_1 \) are initialized with small random values scaled by 0.01.  
 
