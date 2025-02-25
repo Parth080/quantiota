@@ -71,16 +71,16 @@ Similar updates were applied to \( G_1 \) and the bias term \( b_1 \).
 | Training Stability      | Moderate            | Higher (z constraint)      |  
 | Convergence Speed       | Faster (Adam)       | Slightly slower            |  
 
-- **Accuracy:** The entropy-gradient model achieved slightly higher test accuracy.  
+- **Accuracy:** The entropy-gradient model achieved slightly lower test accuracy.  
 - **Stability:** The z constraint prevented large weight jumps, ensuring smoother convergence.  
 - **Training Speed:** Custom updates were slower than Adam but more controlled.  
 
 ---  
 
 ## ⚙️ **4. Challenges and Insights**  
-1. **Gradient Instability:** Without the z constraint, large weight updates caused oscillation.  
-2. **Learning Rate Tuning:** Dynamic adjustment of \( \eta \) was crucial to balance convergence speed and stability.  
-3. **Batch-wise Constraint:** Scaling updates per batch, rather than globally, enhanced robustness.  
+1. **Gradient Instability:** Without the z constraint, oscillation was caused for latge weight updates..  
+2. **Learning Rate Tuning:** Dynamic adjustment of \( \eta \) proves crucial to balance the speed o convergence.  
+3. **Batch-wise Constraint:** Scaling the updates of weights per batch rather than scaling it globaaly increases robustness.  
 4. **Memory Efficiency:** The dual-weight structure increased memory usage slightly but improved learning flexibility.  
 
 ---  
@@ -88,7 +88,7 @@ Similar updates were applied to \( G_1 \) and the bias term \( b_1 \).
 ## 🚀 **5. Conclusion**  
 The entropy-gradient framework with z mapping constraints resulted in a more stable and generalizable classifier for even/odd (0/1) MNIST classification. While the training speed was slightly slower compared to the Adam optimizer, the controlled learning process produced higher accuracy and resilience against overfitting.  
 
-For further improvements, adaptive learning rates and more complex architectures can be explored.  
+For future directions, the hyperparameters can be updated and played with to observe which set of hyperparameters give the best accuracy for train and test data for the entropy gradient based learning
 
 ---  
 
@@ -113,5 +113,3 @@ For further improvements, adaptive learning rates and more complex architectures
    - Visualization of predictions for 10 random test samples.  
 
 ---
-
-This version ensures proper LaTeX rendering for mathematical equations in environments that support it, such as Jupyter Notebooks and Markdown renderers with MathJax support. 🚀
