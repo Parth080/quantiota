@@ -1,5 +1,3 @@
-Here’s the updated README with proper LaTeX formatting for the mathematical equations using ````math```` blocks:  
-
 ---
 
 # README: Entropy-Gradient Even/Odd Classifier with z Mapping Constraints  
